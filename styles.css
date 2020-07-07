@@ -8,8 +8,8 @@ body{
     background: black;
     color: blanchedalmond;
     /*https://www.heropatterns.com*/
-    background-color: #0c0c0d;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='112' height='92' viewBox='0 0 112 92'%3E%3Cg fill='%230f3805' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M72 10H40L16 20H0v8h16l24-14h32l24 14h16v-8H96L72 10zm0-8H40L16 4H0v8h16l24-6h32l24 6h16V4H96L72 2zm0 84H40l-24-6H0v8h16l24 2h32l24-2h16v-8H96l-24 6zm0-8H40L16 64H0v8h16l24 10h32l24-10h16v-8H96L72 78zm0-12H40L16 56H0v4h16l24 14h32l24-14h16v-4H96L72 66zm0-16H40l-24-2H0v4h16l24 6h32l24-6h16v-4H96l-24 2zm0-16H40l-24 6H0v4h16l24-2h32l24 2h16v-4H96l-24-6zm0-16H40L16 32H0v4h16l24-10h32l24 10h16v-4H96L72 18z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #474649;
+background-image: url("data:image/svg+xml,%3Csvg width='48' height='32' viewBox='0 0 48 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231dec1a' fill-opacity='0.4'%3E%3Cpath d='M27 32c0-3.314 2.686-6 6-6 5.523 0 10-4.477 10-10S38.523 6 33 6c-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 6.627 0 12 5.373 12 12s-5.373 12-12 12c-2.21 0-4 1.79-4 4h-2zm-6 0c0-3.314-2.686-6-6-6-5.523 0-10-4.477-10-10S9.477 6 15 6c3.314 0 6-2.686 6-6h-2c0 2.21-1.79 4-4 4C8.373 4 3 9.373 3 16s5.373 12 12 12c2.21 0 4 1.79 4 4h2z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
@@ -74,7 +74,7 @@ hr{
 }
 .showcase{
     width: 100%;
-    height: 400px;
+    height: 330px;
     background: url(./img/showcase.jpg) no-repeat center center/cover;
     padding:50px;
     margin-bottom: 20px;
@@ -107,13 +107,13 @@ hr{
 /*NEWS CARDS*/
 .news-cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;/*espaciado entre columnas*/
     margin: 10px 0;
 }
 .news-cards img{
     width: 100%;
-    height: 180px;
+    height: 250px;
 }
 
 .news-cards h3{
@@ -135,12 +135,13 @@ hr{
 /*CARDS BANNER ONE*/
 .cards-banner-one{
     width: 100%;
-    height: 350px;
-    background: url(./img/banner1.jpeg) no-repeat center center/cover;
-    margin-bottom: 40px;
+    height: 300px;
+    background: url(./img/banner1.jpeg) no-repeat center;
+    margin-bottom: 40px;    
 }
-.cards-banner-one .content{
-    width: 40%;
+
+.cards-banner-one .content{    
+     width: 40%;
     padding: 90px 0 0 30px;
     color: black;
 }
@@ -152,10 +153,11 @@ hr{
 /*CARDS BANNER TWO*/
 .cards-banner-two{
     width: 100%;
-    height: 350px;
-    background: url(./img/banner2.jpeg) no-repeat center center/cover;
+    height: 300%;
+    /*background: url(./img/banner2.jpeg) no-repeat center center/cover;*/
     margin-bottom: 40px;
 }
+
 .cards-banner-two .content{
     width: 40%;
     padding: 90px 0 0 30px;
